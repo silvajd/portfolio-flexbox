@@ -15,6 +15,49 @@ header {
     color: white;
 }
 
+/* Navbar */
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 0;
+    transition: 0.3s;
+}
+
+nav ul a:hover {
+    color: #d6e4f0;
+}
+
+/* Contenido general */
+
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -31,6 +74,8 @@ article {
     background-color: #eaf1f8;
     padding: 20px;
 }
+
+/* Footer */
 
 footer {
     background-color: #1f3c5c;
