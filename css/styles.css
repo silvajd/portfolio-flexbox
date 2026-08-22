@@ -121,7 +121,7 @@ article {
 
 .proyectos {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     gap: 20px;
     margin-top: 20px;
 }
@@ -189,6 +189,7 @@ footer {
 
     .proyectos {
         flex-direction: column;
+        align-items: stretch;
     }
 
     .presentacion-proyectos {
