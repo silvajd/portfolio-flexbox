@@ -141,7 +141,6 @@ article {
 .proyectos article {
     flex: 1;
     min-height: 170px;
-    align-self: stretch;
     border-top: 4px solid #0ea5e9;
 }
 
