@@ -28,7 +28,7 @@ nav {
     gap: 30px;
 }
 
-nav>a {
+nav > a {
     color: white;
     text-decoration: none;
     font-size: 24px;
@@ -73,6 +73,66 @@ section {
 article {
     background-color: #eaf1f8;
     padding: 20px;
+}
+
+/* Presentacion principal */
+
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.presentacion > div {
+    flex: 1;
+}
+
+.destacado {
+    min-height: 150px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #d6e4f0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Seccion sobre mi */
+
+.sobre-mi {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sobre-mi > div {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Tarjetas de proyectos */
+
+.proyectos {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.proyectos article {
+    flex: 1;
+}
+
+/* Presentacion de la pagina proyectos */
+
+.presentacion-proyectos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 /* Footer */
