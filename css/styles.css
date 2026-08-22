@@ -142,6 +142,7 @@ article {
     flex: 1;
     min-height: 170px;
     align-self: stretch;
+    border-top: 4px solid #0ea5e9;
 }
 
 /* Presentacion de la pagina de proyectos */
@@ -167,6 +168,17 @@ h1 {
 
 p {
     line-height: 1.6;
+}
+
+main a {
+    color: #0f766e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #0ea5e9;
+    text-decoration: underline;
 }
 
 /* Footer */
